@@ -22,3 +22,5 @@ Nota: Al ejecutar este comando se instalará  el software para pruebas automatiz
 Para las pruebas del aplicativo se uso la herramienta Cypress, esta se instala con el npm install en el frontend como se explicó en el punto 3.
 
 En la carpeta frontend se puede encontrar los archivos de Cypress, se crearon dos scripts para realizar pruebas, los cuales estan en cypress/integration/pruebas.
+
+Para arrancar la herramienta cypress se debe ir a la carpeta frontend y ejecutar el comando npm run cypress:open
