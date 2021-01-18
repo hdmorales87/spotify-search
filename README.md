@@ -11,11 +11,11 @@ Instalación:
 3. Instalar las dependencias del frontend (ReactJS), para ello se debe ir a la carpeta frontend y ejecutar npm install, con esto npm leera las dependencias del package.json y las instalará en node_modules. 
 Nota: Al ejecutar este comando se instalará  el software para pruebas automatizadas Cypress que se usó para realizar las pruebas end to end.
 
-4.Arrancar el servidor de NodeJS: Para ello en la carpeta backend ejecutamos node index.js o nodemon index.js en caso de tener instalado el nodemon.
+4. Arrancar el servidor de NodeJS: Para ello en la carpeta backend ejecutamos node index.js o nodemon index.js en caso de tener instalado el nodemon.
 
-5.Arrancar el entorno de desarrollo de ReactJS: para ello vamos a la carpeta frontend y ejecutamos npm start, despues de compilar en el navegador se abrirá http://localhost:3000, en caso de que termine de compilar y no abra la ventana la ingresamos en el navegador.
+5. Arrancar el entorno de desarrollo de ReactJS: para ello vamos a la carpeta frontend y ejecutamos npm start, despues de compilar en el navegador se abrirá http://localhost:3000, en caso de que termine de compilar y no abra la ventana la ingresamos en el navegador.
 
-6.Con los dos entornos en marcha la aplicación ya está lista para ser usada.
+6 .Con los dos entornos en marcha la aplicación ya está lista para ser usada.
 
 Realización de pruebas con Cypress
 
