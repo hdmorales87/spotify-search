@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;         
+}
+
+body * {
+	color:#fff; 
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.fondoScreen{
+    /*background:#000;*/
+    min-height: 100vh;
+    background: #121212;
+}
+
+.logoSpotify{
+    width:250px;
+    height:80px;
+    min-width:120px;
+}
+
+.text{
+	font-family: Arial;
+}
+
+.titleResults{
+	font-family:'Arial';
+	font-weight:bold;	
+}
+
+.textResults{
+	font-size: 16px;
+}
+
+.contenedorResultados{
+	max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+hr{
+	border: 1px solid white !important;
+}
+
+.paginador{
+	text-align: right;
+	font-weight: bold;
+	font-size: 16px;
+	display: flex;
+    justify-content: flex-end;
+}
+
+.btnsPaginador{
+	cursor:pointer;	
+}
+
+.modal-detalle{
+	background-color: #333 !important;
+}
+
+.view-detalle{
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+/*************************Scrollbar personalizado*****************************/
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-button {
+    width: 8px;
+    height:5px;
+}
+::-webkit-scrollbar-track {
+    background:#eee;
+    border: thin solid lightgray;
+    box-shadow: 0px 0px 3px #dfdfdf inset;
+    border-radius:10px;
+}
+::-webkit-scrollbar-thumb {
+    background:#999;
+    border: thin solid gray;
+    border-radius:10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background:#7d7d7d;
+}
+
+/********************************Media***********************************/
+
+@media (min-width: 576px){
+	.imagen-caratula {
+	    max-width:64px;
+	}
+
+	.imagen-caratula-detalle {
+	    max-width:180px;
+	}
+
+	.caratula-fixed{
+		max-width:64px !important;
+	}	
+
+	.caratula-fixed{
+		max-width:64px !important;
+	}		
+}
+
+@media (max-width: 576px){
+	.imagen-caratula-detalle{
+		max-width:270px;
+	}
+	.texto-descripcion{
+		text-align: center;
+	}
+}
+
+@media (max-width: 386px){
+	.imagen-caratula {
+	    max-width:270px;
+	}
+}
+
+@media (max-width: 366px){
+	.imagen-caratula {
+	    max-width:250px;
+	}			
+}
+
+@media (max-width: 334px){
+	.imagen-caratula {
+	    max-width:230px;
+	}			
+}
+
+@media (max-width: 308px){
+	.imagen-caratula {
+	    max-width:190px;
+	}
+	.inputBuscar{
+		max-width:140px;
+	}			
+}
+
+@media (max-width: 278px){
+	.imagen-caratula {
+	    max-width:170px;
+	}
+	.inputBuscar{
+		max-width:120px;
+	}
+	.paginador{
+		font-size: 12px;
+	}			
+}
+
+@media (max-width: 260px){
+	.imagen-caratula {
+	    max-width:150px;
+	}
+	.inputBuscar{
+		max-width:120px;
+	}			
+}
+
+@media (max-width: 230px){
+	.imagen-caratula {
+	    max-width:120px;
+	}
+	.inputBuscar{
+		max-width:100px;
+	}			
+}
+
+@media (max-width: 575px){
+	.titleResults {
+	    text-align: center;
+	}
+	.lineaBlanca{
+		border: 1px solid #121212 !important;
+	}	
+	::-webkit-scrollbar {
+	    width: 1px;
+	}	
+}
