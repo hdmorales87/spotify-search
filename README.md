@@ -15,7 +15,7 @@ Nota: Al ejecutar este comando se instalará  el software para pruebas automatiz
 
 5. Arrancar el entorno de desarrollo de ReactJS: para ello vamos a la carpeta frontend y ejecutamos npm start, despues de compilar en el navegador se abrirá http://localhost:3000, en caso de que termine de compilar y no abra la ventana la ingresamos en el navegador.
 
-6 .Con los dos entornos en marcha la aplicación ya está lista para ser usada.
+6. Con los dos entornos en marcha la aplicación ya está lista para ser usada.
 
 Realización de pruebas con Cypress
 
