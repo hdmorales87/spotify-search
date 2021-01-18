@@ -2,7 +2,7 @@
 
 Permite buscar una canción en Spotify consumiendo una API
 
-Instalación:
+# Instalación:
 
 1. Clonar el repositorio
 
@@ -17,7 +17,7 @@ Nota: Al ejecutar este comando se instalará  el software para pruebas automatiz
 
 6. Con los dos entornos en marcha la aplicación ya está lista para ser usada.
 
-Realización de pruebas con Cypress
+# Realización de pruebas con Cypress
 
 Para las pruebas del aplicativo se uso la herramienta Cypress, esta se instala con el npm install en el frontend como se explicó en el punto 3.
 
